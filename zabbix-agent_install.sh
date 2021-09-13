@@ -42,6 +42,8 @@ zabbix_agent-install-redhat-like ()
   zabbix_agent_config_file
   sudo systemctl enable --now zabbix-agent && \
       sudo systemctl status zabbix-agent
+      sleep 5 &&
+      sudo systemctl restart zabbix-agent
 }
 
 zabbix_agent_config_file ()
