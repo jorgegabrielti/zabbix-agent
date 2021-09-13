@@ -251,6 +251,3 @@ api_zabbix_group_create
 
 # Host
 api_zabbix_host_create
-
-# Sintax
-#  && env ZABBIX_SERVER="" GROUP_NAME="" HOST_NAME="" ./zabbix_agent-install.sh
