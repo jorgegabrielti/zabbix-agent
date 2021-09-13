@@ -237,9 +237,6 @@ api_zabbix_host_create ()
   curl -s -X POST -H "${HEADER}" -d "${JSON_API_DISCONNECT}" ${ZABBIX_URL}/api_jsonrpc.php
 }
 
-# Main funciton
-main
-
 ### Zabbix API 
 api_zabbix_availability_check
 
@@ -251,3 +248,6 @@ api_zabbix_group_create
 
 # Host
 api_zabbix_host_create
+
+# Main funciton
+main
